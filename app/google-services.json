@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708524519715",
+    "firebase_url": "https://glinksmartgarden-default-rtdb.firebaseio.com",
+    "project_id": "glinksmartgarden",
+    "storage_bucket": "glinksmartgarden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708524519715:android:a5d70853daa091d1c85c96",
+        "android_client_info": {
+          "package_name": "com.example.glink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708524519715-miu8n7mvgsi528qsmo0f07tgv7p4hi9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG9TS4l1B4OowwXkynDvKArvPfudIGYOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708524519715-miu8n7mvgsi528qsmo0f07tgv7p4hi9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

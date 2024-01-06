@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/fullbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/logo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="80dp"
+            app:srcCompat="@drawable/glink2"/>
+
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/profil"/>
+
+        <EditText
+            android:id="@+id/User"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="User"
+            android:inputType="textPersonName"
+            android:textColor="#CCFEFEFE"
+            android:textColorHint="#99FEFEFE" />
+
+        <EditText
+            android:id="@+id/Pass"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#CCFEFEFE"
+            android:textColorHint="#99FEFEFE"
+            tools:fontFamily="sans-serif-medium" />
+
+        <ImageView
+            android:id="@+id/Masuk"
+            android:layout_width="200dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/masuk" />
+
+    </LinearLayout>
+
+</RelativeLayout>
